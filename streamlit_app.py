@@ -36,4 +36,4 @@ if time_to_insert and ingredients_list:
     st.stop()
 import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
-st.text(fruityvice_response)
+st.text(fruityvice_response.json())
