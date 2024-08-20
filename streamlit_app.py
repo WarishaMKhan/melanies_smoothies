@@ -11,7 +11,7 @@ st.write("The name on your smoothie will be", title)
 
 # Initialize Snowflake session
 cnx = st.connection("snowflake")
-session = cnx.ession()
+session = cnx.session()
 my_dataframe = session.table("smoothies.public.fruit_options").select(col('FRUIT_NAME'))
 
 # Multi-select input for ingredients
