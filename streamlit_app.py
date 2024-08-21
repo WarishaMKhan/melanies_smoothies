@@ -20,7 +20,8 @@ pd_df=my_dataframe.to_pandas()
 #st.dataframee=(pd_df)
 #st.stop()
 # Multi-select input for ingredients
-ingredients_list = st.multiselect('Choose up to 5 ingredients: ', my_dataframe)
+ingredients_list = st.multiselect
+('Choose up to 5 ingredients: ', my_dataframe,max_selection=5)
 
 # Button to submit the order
 time_to_insert = st.button('Submit Order')
