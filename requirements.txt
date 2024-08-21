@@ -1,5 +1,5 @@
 # requirements.txt
-import pandas as py
+import panda as py
 snowflake-snowpark-python
 streamlit
 requests
